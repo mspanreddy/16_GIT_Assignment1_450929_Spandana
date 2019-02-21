@@ -100,4 +100,13 @@ public class Book implements Serializable{
 		this.publishDate=publishDate;
 		this.subject=subject;
 	}
+	
+	public Book(long bookId,String title,double price,Integer volume,LocalDate publishDate,Subject subject){
+		this.bookId=bookId;
+		this.title=title;
+		this.price=price;
+		this.volume=volume;
+		this.publishDate=publishDate;
+		this.subject=subject;
+	}
 }

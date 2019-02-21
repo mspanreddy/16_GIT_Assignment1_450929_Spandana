@@ -66,5 +66,14 @@ public class Subject implements Serializable{
 		this.book = book;
 	}
 	
+	public Subject(long subjectId, String subtitle, int durationInHours) {
+		super();
+		this.subjectId = subjectId;
+		this.subtitle = subtitle;
+		this.durationInHours = durationInHours;
+	}
+
+	public Subject() {
+	}
 	
 }
